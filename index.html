@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Webmail</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css"/>
+    <!--[if lt IE 9]>
+    <script src="html5shiv.js"></script> <![endif]-->
+
+</head>
+
+<body ng-app="Webmail" ng-controller="WebmailCtrl">
+
+<div class="container">
+
+    <ul class="nav nav-pills spacer">
+        <li ng-repeat="file in files"
+            ng-class="{ active: file == currentFile }"><a href="#/{{file.value}}">{{file.label}}</a></li>
+    </ul>
+
+    <div ng-show="currentFile != null &amp;&amp; emailSelected == null">
+        <table class="table table-striped table-hover spacer">
+            <thead>
+            <tr>
+                <th>From</th>
+                <th>To</th>
+                <th>Subject</th>
+                <th>Date</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="email in currentFile.emails" class="clickable" ng-click="toEmail(currentFile, email)">
+                <td>{{email.from}}</td>
+                <td>{{email.to}}</td>
+                <td>{{email.subject}}</td>
+                <td>{{email.date}}</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <div class="alert alert-info">Email received ({{currentFile.emails.length}}).</div>
+
+    </div>
+
+    <div ng-show="emailSelected != null" class="spacer">
+        <div class="well">
+            <h1>{{emailSelected.subject}}</h1>
+            <p><label>From :</label> <span>{{emailSelected.from}}</span></p>
+            <p><label>To :</label> <span>{{emailSelected.to}}</span></p>
+            <p><label>Date :</label> <span>{{emailSelected.date}}</span></p>
+        </div>
+
+        <p ng-bind-html="emailSelected.content"></p>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-sanitize.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
