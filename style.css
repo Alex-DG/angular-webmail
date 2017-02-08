@@ -1,5 +1,13 @@
-﻿.spacer {
+﻿a {
+    cursor: pointer;
+}
+
+.spacer {
 	margin-top: 20px;
+}
+
+.hSpacer {
+    margin-left: 20px;
 }
 
 .table-hover > tbody > tr:hover > td,
@@ -10,4 +18,24 @@
 
 .clickable {
 	cursor: pointer;
+}
+
+.colFrom {
+    width: 20%;
+}
+
+.colTo {
+    width: 15%;
+}
+
+.colSubject {
+    width: 45%;
+}
+
+.colDate {
+    width: 15%;
+}
+
+.highlightSearch {
+    background-color: #FFD42A;
 }

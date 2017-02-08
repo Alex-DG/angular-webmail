@@ -7,10 +7,10 @@
 // }]);
 
 angular.module("Webmail", ["ngSanitize"])
-    .config(['$locationProvider', function($locationProvider) {
+    .config(['$locationProvider', function ($locationProvider) {
         $locationProvider.hashPrefix('');
     }])
-    .controller("WebmailCtrl", function ($scope, $location) {
+    .controller("WebmailCtrl", function ($scope, $location, $filter) {
 
         $scope.files = [
             {
@@ -20,7 +20,7 @@ angular.module("Webmail", ["ngSanitize"])
                     from: "MrRobot",
                     to: "Alex",
                     subject: "Thanks for your help! I own you one",
-                    date: "20/02/2017",
+                    date: new Date(2015, 1, 20, 15, 30),
                     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id ligula ac sem fringilla mattis. Nullam sodales mi vel semper volutpat. Phasellus lorem leo, luctus a lectus id, posuere aliquet orci. Praesent sit amet ipsum porttitor, tempus odio vel, bibendum mauris. Etiam magna lorem, rhoncus eget euismod ac, lobortis quis."
                 },
                 {
@@ -28,7 +28,7 @@ angular.module("Webmail", ["ngSanitize"])
                     from: "Superman",
                     to: "Batman",
                     subject: "Hi from Hawaii",
-                    date: "18/02/2017",
+                    date: new Date(2017, 1, 18, 9, 30),
                     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur elementum leo. Curabitur luctus, magna a tempor sodales, orci velit dictum magna, nec pharetra turpis ante vehicula ante. Sed sed libero suscipit, rutrum ligula vel, tempor lorem. Phasellus pulvinar dolor ac velit porttitor pulvinar. Mauris felis quam, consequat at <b>mauris</b>."
                 },
                 {
@@ -36,7 +36,7 @@ angular.module("Webmail", ["ngSanitize"])
                     from: "Pikachu",
                     to: "Alex",
                     subject: "Pika pika !",
-                    date: "15/02/2017",
+                    date: new Date(2017, 1, 15, 19, 45),
                     content: "Pika pika ! Chuuuuuu. Pika pika ! Chuuuuuu. Pika pika ! Chuuuuuu. Pika pika ! Pika pika ? Piiiiika Chuuuuuu. Pika pika ! Pikachu. Pika pika pika."
                 },
                 {
@@ -44,7 +44,7 @@ angular.module("Webmail", ["ngSanitize"])
                     from: "King Varian Wrynn",
                     to: "Alex",
                     subject: "For the Alliance!",
-                    date: "13/02/2017",
+                    date: new Date(2017, 1, 13, 16, 12),
                     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur elementum leo. Curabitur luctus, magna a tempor sodales, orci velit dictum magna, nec pharetra turpis ante vehicula ante. Sed sed libero suscipit, rutrum ligula vel, tempor lorem. Phasellus pulvinar dolor ac velit porttitor pulvinar. Mauris felis quam, consequat at <b>mauris</b>."
                 }
             ]
@@ -56,7 +56,7 @@ angular.module("Webmail", ["ngSanitize"])
                     from: "Sarah",
                     to: "Alex",
                     subject: "Happy Birthday!",
-                    date: "17/02/2017",
+                    date: new Date(2017, 1, 17, 11, 17),
                     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id ligula ac sem fringilla mattis. Nullam sodales mi vel semper volutpat. Phasellus lorem leo, luctus a lectus id, posuere aliquet orci. Praesent sit amet ipsum porttitor, tempus odio vel, bibendum mauris. Etiam magna lorem, rhoncus eget euismod ac, lobortis quis."
                 },
                 {
@@ -64,7 +64,7 @@ angular.module("Webmail", ["ngSanitize"])
                     from: "Hiro Nakamura",
                     to: "Alex",
                     subject: "Konichiwa",
-                    date: "18/03/2017",
+                    date: new Date(2017, 2, 18, 11, 50),
                     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur elementum leo. Curabitur luctus, magna a tempor sodales, orci velit dictum magna, nec pharetra turpis ante vehicula ante. Sed sed libero suscipit, rutrum ligula vel, tempor lorem. Phasellus pulvinar dolor ac velit porttitor pulvinar. Mauris felis quam, consequat at <b>mauris</b>."
                 },
                 {
@@ -72,7 +72,7 @@ angular.module("Webmail", ["ngSanitize"])
                     from: "Sangoku",
                     to: "Alex",
                     subject: "Kamehameha!!",
-                    date: "20/02/2017",
+                    date: new Date(2017, 1, 20, 13, 30),
                     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id ligula ac sem fringilla mattis. Nullam sodales mi vel semper volutpat. Phasellus lorem leo, luctus a lectus id, posuere aliquet orci. Praesent sit amet ipsum porttitor, tempus odio vel, bibendum mauris. Etiam magna lorem, rhoncus eget euismod ac, lobortis quis."
                 }
             ]
@@ -84,7 +84,7 @@ angular.module("Webmail", ["ngSanitize"])
                     from: "Alex",
                     to: "Sheldon",
                     subject: "Bien la famille ?",
-                    date: "20/02/2017",
+                    date: new Date(2017, 1, 19, 8, 5),
                     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id ligula ac sem fringilla mattis. Nullam sodales mi vel semper volutpat. Phasellus lorem leo, luctus a lectus id, posuere aliquet orci. Praesent sit amet ipsum porttitor, tempus odio vel, bibendum mauris. Etiam magna lorem, rhoncus eget euismod ac, lobortis quis."
                 },
                 {
@@ -92,7 +92,7 @@ angular.module("Webmail", ["ngSanitize"])
                     from: "Alex",
                     to: "Leonard",
                     subject: "Gloubiboulga Night",
-                    date: "18/02/2017",
+                    date: new Date(2017, 1, 18, 11, 17),
                     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur elementum leo. Curabitur luctus, magna a tempor sodales, orci velit dictum magna, nec pharetra turpis ante vehicula ante. Sed sed libero suscipit, rutrum ligula vel, tempor lorem. Phasellus pulvinar dolor ac velit porttitor pulvinar. Mauris felis quam, consequat at <b>mauris</b>."
                 }
             ]
@@ -104,7 +104,7 @@ angular.module("Webmail", ["ngSanitize"])
                     from: "Qoicnat",
                     to: "Alex",
                     subject: "MONEY MONEY",
-                    date: "20/02/2017",
+                    date: new Date(2017, 1, 20, 11, 11),
                     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id ligula ac sem fringilla mattis. Nullam sodales mi vel semper volutpat. Phasellus lorem leo, luctus a lectus id, posuere aliquet orci. Praesent sit amet ipsum porttitor, tempus odio vel, bibendum mauris. Etiam magna lorem, rhoncus eget euismod ac, lobortis quis."
                 },
                 {
@@ -112,12 +112,15 @@ angular.module("Webmail", ["ngSanitize"])
                     from: "Sofinnoga",
                     to: "Alex",
                     subject: "Life Assurance good for you!",
-                    date: "18/02/2017",
+                    date: new Date(2017, 1, 18, 17, 16),
                     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur elementum leo. Curabitur luctus, magna a tempor sodales, orci velit dictum magna, nec pharetra turpis ante vehicula ante. Sed sed libero suscipit, rutrum ligula vel, tempor lorem. Phasellus pulvinar dolor ac velit porttitor pulvinar. Mauris felis quam, consequat at <b>mauris</b>."
                 }
             ]
             }
         ];
+
+
+        // EMAIL TABLE -------------------------------------------------------------------------------------------------
 
         $scope.currentFile = null;
         $scope.emailSelected = null;
@@ -134,6 +137,40 @@ angular.module("Webmail", ["ngSanitize"])
         $scope.selectEmail = function (email) {
             $scope.emailSelected = email;
         };
+
+
+        // SORT --------------------------------------------------------------------------------------------------------
+
+        $scope.fieldToSort = null;
+        $scope.sortDescending = false;
+
+        $scope.sortEmails = function (champ) {
+            if ($scope.fieldToSort == champ) {
+                $scope.sortDescending = !$scope.sortDescending;
+            } else {
+                $scope.fieldToSort = champ;
+                $scope.sortDescending = false;
+            }
+        }
+
+        $scope.cssChevronIcon = function (field) {
+            return {
+                glyphicon: $scope.fieldToSort == field,
+                'glyphicon-chevron-up': $scope.fieldToSort == field && !$scope.sortDescending,
+                'glyphicon-chevron-down': $scope.fieldToSort == field && $scope.sortDescending
+            };
+        }
+
+        // SEARCH ------------------------------------------------------------------------------------------------------
+
+
+        $scope.searchEmails = [];
+
+        $scope.cleanSearch = function () {
+            $scope.searchEmails = null;
+        }
+
+
 
         $scope.$watch(function () {
             return $location.path();
@@ -163,5 +200,12 @@ angular.module("Webmail", ["ngSanitize"])
             }
         });
 
-
+    })
+    .filter("highlightSearch", function () { // TODO: need optimisation for a long list of emails
+        return function (input, searchEmails) {
+            if (searchEmails) {
+                return input.replace(new RegExp("(" + searchEmails + ")", "gi"), "<span class='highlightSearch'>$1</span>");
+            }
+            return input;
+        }
     });
