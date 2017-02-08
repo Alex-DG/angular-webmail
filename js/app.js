@@ -6,7 +6,7 @@
 //     $locationProvider.hashPrefix('');
 // }]);
 
-angular.module("Webmail", ["ngSanitize"])
+angular.module("Webmail", [ "ngSanitize", "ui.tinymce" ])
     .config(['$locationProvider', function ($locationProvider) {
         $locationProvider.hashPrefix('');
     }])
@@ -176,7 +176,7 @@ angular.module("Webmail", ["ngSanitize"])
         }
 
 
-        // COMPOSE EMAIL
+        // COMPOSE EMAIL -----------------------------------------------------------------------------------------------
 
         $scope.newEmail = null;
         $scope.clearEmail = function () {
@@ -185,14 +185,29 @@ angular.module("Webmail", ["ngSanitize"])
                 from: "Alex",
                 date: new Date()
             };
-            // if (tinyMCE.activeEditor) {
-            //     tinyMCE.activeEditor.setContent("");
-            // }
-            // $scope.formNouveauMail.$setPristine();
 
+            if (tinyMCE.activeEditor) {
+                tinyMCE.activeEditor.setContent("");
+            }
+            $scope.formNewEmail.$setPristine();
         }
 
         $scope.sendEmail = function () {
+            var regExpValidEmail = new RegExp("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$", "gi");
+
+            // Email validation
+            if (!$scope.newEmail.to || !$scope.newEmail.to.match(regExpValidEmail)) {
+                window.alert("Error\n\nEmail address not valid.");
+                return;
+            }
+
+            // Email confirmation for no subject defined
+            if (!$scope.newEmail.subject) {
+                if (!window.confirm("Confirmation\n\nDo you really want to send an email with no subject?")) {
+                    return;
+                }
+            }
+
             $scope.files.forEach(function (item) {
                 $scope.newEmail.id = $scope.idNextEmail++;
                 if (item.value == "SENT_EMAIL") {
@@ -206,7 +221,13 @@ angular.module("Webmail", ["ngSanitize"])
         }
 
 
-        // NAVIGATION
+        $scope.optionsTinyMce = {
+            statusbar: false,
+            menubar: false
+        };
+
+
+        // NAVIGATION --------------------------------------------------------------------------------------------------
 
         $scope.$watch(function () {
             return $location.path();

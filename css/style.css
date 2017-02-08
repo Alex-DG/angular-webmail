@@ -51,3 +51,7 @@
 .contentNewEmail {
     width: 100%;
 }
+
+input.ng-invalid {
+    background-color: rgba(255, 0, 0, 0.5);
+}
