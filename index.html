@@ -26,16 +26,17 @@
 
         <ul class="nav nav-pills spacer navbar-left">
             <li ng-repeat="file in files"
-                ng-class="{ active: file == currentFile }"><a href="#/{{file.value}}">{{file.label}}</a></li>
+                ng-class="{ active: currentView == 'viewFile' && file == currentFile }"><a href="#/{{file.value}}">{{file.label}}</a></li>
         </ul>
 
         <ul class="nav nav-pills spacer navbar-right">
-            <li ng-class="{ active: newEmail != null}"><a href="#/COMPOSE"><span class="glyphicon glyphicon-pencil"></span></a></li>
+            <li ng-class="{ active: currentView == 'viewNewEmail' }"><a href="#/COMPOSE"><span class="glyphicon glyphicon-pencil"></span></a></li>
         </ul>
 
     </div>
 
-    <div ng-show="currentFile != null &amp;&amp; emailSelected == null">
+    <!--  Email in file -->
+    <div ng-show="currentView == 'viewFile'">
 
         <!-- Search input -->
         <div class="spacer input-group">
@@ -94,60 +95,23 @@
 
     </div>
 
-    <!-- Email selected -->
-    <div ng-show="emailSelected != null" class="spacer">
-        <div class="well">
-            <h1>{{emailSelected.subject}}</h1>
-            <p><label>From :</label> <span>{{emailSelected.from}}</span></p>
-            <p><label>To :</label> <span>{{emailSelected.to}}</span></p>
-            <p><label>Date :</label> <span>{{emailSelected.date | date:'dd/MM/yyyy HH:mm'}}</span></p>
-        </div>
+    <!-- Email content -->
+    <content-email ng-show="currentView == 'viewContentEmail'" email="emailSelected"></content-email>
 
-        <p ng-bind-html="emailSelected.content"></p>
+    <!-- New email-->
+    <new-email-dir ng-show="currentView == 'viewNewEmail'" send-email="sendEmail(newEmail)"></new-email-dir>
 
-    </div>
-
-    <div class="spacer" ng-show="newEmail">
-
-        <form id="formNewEmail" name="formNewEmail">
-
-            <div class="input-group">
-                <span class="input-group-addon labelFieldNewEmail">To</span>
-                <input type="text" class="form-control" ng-model="newEmail.to" />
-            </div>
-
-            <div class="spacer input-group">
-                <span class="input-group-addon labelFieldNewEmail">Subject</span>
-                <input type="text" class="form-control" ng-model="newEmail.subject" />
-            </div>
-
-            <div class="spacer">
-                <textarea ui-tinymce="optionsTinyMce" class="contentNewEmail" rows="10" ng-model="newEmail.content"></textarea>
-            </div>
-
-            <div class="spacer">
-                <pre>{{newEmail | json}}</pre> <!-- show model through json filter -->
-            </div>
-
-            <div class="spacer text-center">
-                <button ng-click="sendEmail()" class="btn btn-success">Send</button>
-                <span class="hSpacer"></span>
-                <button ng-click="clearEmail()" ng-disabled="formNewEmail.$pristine" class="btn btn-warning">Clear</button>
-            </div>
-        </form>
-
-    </div>
 
 </div>
-
-<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>-->
-<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-sanitize.min.js"></script>-->
 
 <script type="text/javascript" src="lib/tinymce/tinymce.js"></script>
 <script type="text/javascript" src="lib/angular-1.6.1/angular.js"></script>
 <script type="text/javascript" src="lib/angular-1.6.1/angular-sanitize.min.js"></script>
 <script type="text/javascript" src="lib/angular-ui-tinymce/src/tinymce.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/AppFilters.js"></script>
+<script type="text/javascript" src="js/AppDirectives.js"></script>
+<script type="text/javascript" src="js/MailServiceMock.js"></script>
 
 </body>
 </html>

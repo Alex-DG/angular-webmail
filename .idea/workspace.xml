@@ -2,190 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a80d3537-d611-45c7-bc4d-bb2cfee8a32a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/img/smiley-cool.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/img/smiley-cry.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/img/smiley-embarassed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/img/smiley-frown.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/img/smiley-innocent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/img/smiley-kiss.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/img/smiley-laughing.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/img/smiley-sealed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/img/smiley-smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/img/smiley-surprised.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/img/smiley-undecided.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/img/smiley-wink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/img/smiley-yell.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/skins/lightgray/fonts/tinymce-small.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/skins/lightgray/fonts/tinymce-small.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/skins/lightgray/fonts/tinymce-small.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/skins/lightgray/fonts/tinymce.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/skins/lightgray/fonts/tinymce.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/skins/lightgray/fonts/tinymce.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/skins/lightgray/img/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/skins/lightgray/img/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/skins/lightgray/img/object.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/skins/lightgray/img/trans.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-tinymce/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-tinymce/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-tinymce/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-tinymce/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-tinymce/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-tinymce/dist/tinymce.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-tinymce/src/tinymce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/jquery.tinymce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/jquery.tinymce.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/advlist/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/advlist/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/advlist/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/anchor/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/anchor/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/anchor/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/autolink/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/autolink/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/autolink/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/autoresize/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/autoresize/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/autoresize/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/autosave/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/autosave/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/autosave/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/bbcode/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/bbcode/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/bbcode/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/charmap/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/charmap/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/charmap/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/code/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/code/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/code/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/codesample/css/prism.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/codesample/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/codesample/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/codesample/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/colorpicker/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/colorpicker/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/colorpicker/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/contextmenu/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/contextmenu/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/contextmenu/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/directionality/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/directionality/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/directionality/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/emoticons/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/fullpage/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/fullpage/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/fullpage/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/fullscreen/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/fullscreen/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/fullscreen/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/hr/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/hr/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/hr/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/image/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/image/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/image/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/imagetools/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/imagetools/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/imagetools/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/importcss/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/importcss/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/importcss/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/insertdatetime/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/insertdatetime/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/insertdatetime/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/legacyoutput/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/legacyoutput/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/legacyoutput/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/link/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/link/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/link/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/lists/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/lists/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/lists/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/media/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/media/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/media/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/nonbreaking/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/nonbreaking/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/nonbreaking/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/noneditable/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/noneditable/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/noneditable/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/pagebreak/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/pagebreak/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/pagebreak/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/paste/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/paste/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/paste/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/preview/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/preview/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/preview/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/print/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/print/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/print/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/save/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/save/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/save/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/searchreplace/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/searchreplace/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/searchreplace/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/spellchecker/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/spellchecker/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/spellchecker/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/tabfocus/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/tabfocus/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/tabfocus/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/table/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/table/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/table/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/template/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/template/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/template/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/textcolor/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/textcolor/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/textcolor/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/textpattern/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/textpattern/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/textpattern/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/toc/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/toc/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/toc/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/visualblocks/css/visualblocks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/visualblocks/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/visualblocks/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/visualblocks/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/visualchars/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/visualchars/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/visualchars/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/wordcount/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/wordcount/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/plugins/wordcount/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/skins/lightgray/content.inline.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/skins/lightgray/content.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/skins/lightgray/fonts/tinymce-small.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/skins/lightgray/fonts/tinymce.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/skins/lightgray/skin.ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/skins/lightgray/skin.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/themes/inlite/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/themes/inlite/theme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/themes/inlite/theme.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/themes/modern/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/themes/modern/theme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/themes/modern/theme.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/tinymce.jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/tinymce.jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/tinymce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tinymce/tinymce.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/AppDirectives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/AppFilters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/MailServiceMock.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
     </list>
@@ -205,22 +25,103 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="127" column="32" lean-forward="true" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="100" column="42" lean-forward="false" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/app.js">
+      <file leaf-file-name="AppDirectives.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/AppDirectives.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="185" column="18" lean-forward="false" selection-start-line="185" selection-start-column="18" selection-end-line="185" selection-end-column="18" />
+            <state relative-caret-position="1155">
+              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding>
+                <marker date="1486604177000" expanded="true" signature="184:632" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="221:556" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:920" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:967" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:1053" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:1144" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:1172" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:1226" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:1317" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:1413" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:1441" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:1483" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:1620" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:1648" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:1651" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:1702" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:1801" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:1856" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:1989" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:2017" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:2042" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="859:2063" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="921:967" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="968:1053" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="1227:1317" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="1484:1620" ph="..." />
+                <marker date="1486604177000" expanded="true" signature="1703:1801" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppFilters.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/AppFilters.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MailServiceMock.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/MailServiceMock.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+                <element signature="e#156#2542#0" expanded="false" />
+                <element signature="e#214#2528#0" expanded="false" />
+                <element signature="e#232#834#0" expanded="false" />
+                <element signature="e#852#1463#0" expanded="false" />
+                <element signature="e#1481#1874#0" expanded="false" />
+                <element signature="e#1892#2514#0" expanded="false" />
+                <element signature="e#2556#4469#0" expanded="false" />
+                <element signature="e#2618#4455#0" expanded="false" />
+                <element signature="e#2636#3216#0" expanded="false" />
+                <element signature="e#3234#3844#0" expanded="false" />
+                <element signature="e#3862#4441#0" expanded="false" />
+                <element signature="e#4483#5809#0" expanded="false" />
+                <element signature="e#4550#5795#0" expanded="false" />
+                <element signature="e#4568#5150#0" expanded="false" />
+                <element signature="e#5168#5781#0" expanded="false" />
+                <element signature="e#5823#7148#0" expanded="false" />
+                <element signature="e#5879#7134#0" expanded="false" />
+                <element signature="e#5897#6476#0" expanded="false" />
+                <element signature="e#6494#7120#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -228,8 +129,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            <state relative-caret-position="510">
+              <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -251,7 +152,6 @@
       <find>Rudy</find>
       <find>currentEmail</find>
       <find>currentFile</find>
-      <find>dossier</find>
       <find>versEmail</find>
       <find>dossierCourant</find>
       <find>Sheld</find>
@@ -261,10 +161,23 @@
       <find>valDossier</find>
       <find>version</find>
       <find>tinymce</find>
+      <find>recherche</find>
+      <find>sendEmail</find>
+      <find>clear</find>
+      <find>optionsTinyMce</find>
+      <find>sendEma</find>
+      <find>newMail</find>
+      <find>newEmail</find>
+      <find>class=&quot;well&quot;</find>
+      <find>dossier</find>
+      <find>clearEmail</find>
+      <find>sendE</find>
     </findStrings>
     <replaceStrings>
       <replace>valFile</replace>
       <replace>newEmail</replace>
+      <replace>file</replace>
+      <replace>search</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -278,9 +191,12 @@
         <option value="$PROJECT_DIR$/tinymce-angular-demo/bower.json" />
         <option value="$PROJECT_DIR$/tinymce-angular/bower.json" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/AppFilters.js" />
+        <option value="$PROJECT_DIR$/js/MailServiceMock.js" />
+        <option value="$PROJECT_DIR$/js/AppDirectives.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -310,6 +226,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -366,8 +284,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -381,17 +297,18 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/lib/tinymce/js/tinymce" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib/tinymce" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/lib" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/lib/tinymce/js/tinymce" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -468,12 +385,13 @@
       <workItem from="1486484309849" duration="720000" />
       <workItem from="1486485196332" duration="1794000" />
       <workItem from="1486487511834" duration="10484000" />
-      <workItem from="1486545548804" duration="21142000" />
+      <workItem from="1486545548804" duration="21262000" />
+      <workItem from="1486596180367" duration="8452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34140000" />
+    <option name="totallyTimeSpent" value="42712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -481,7 +399,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23828435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -511,34 +429,42 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/MailServiceMock.js</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1905">
+          <caret line="127" column="32" lean-forward="true" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -546,7 +472,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular/angular.js" />
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -554,9 +501,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -572,7 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,7 +524,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -596,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -604,42 +549,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular/angular.js" />
     <entry file="file://$PROJECT_DIR$/lib/angular-1.6.1/docs/js/docs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1482490164000" expanded="true" signature="8178:8192" ph="..." />
-            <marker date="1482490164000" expanded="true" signature="9679:9685" ph=" " />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,9 +572,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="210" column="45" lean-forward="false" selection-start-line="210" selection-start-column="45" selection-end-line="210" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1538,102 +1461,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tinymce/langs/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tinymce/js/tinymce/langs/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tinymce/js/tinymce/ui-tinymce.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-637">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tinymce/langs/fr_FR.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinymce-angular-demo/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tinymce.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinymce-angular/bower_components/angular-ui-tinymce/.bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinymce-angular/bower_components/angular-ui-tinymce/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinymce-angular/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinymce-angular/bower_components/tinymce/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinymce-angular/bower_components/tinymce/.bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinymce-angular/bower_components/angular/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tinymce/langs/readme.md" />
+    <entry file="file://$PROJECT_DIR$/lib/tinymce/js/tinymce/langs/readme.md" />
+    <entry file="file://$PROJECT_DIR$/lib/tinymce/js/tinymce/ui-tinymce.js" />
+    <entry file="file://$PROJECT_DIR$/lib/tinymce/langs/fr_FR.js" />
+    <entry file="file://$PROJECT_DIR$/tinymce-angular-demo/bower.json" />
+    <entry file="file://$PROJECT_DIR$/lib/tinymce.js" />
+    <entry file="file://$PROJECT_DIR$/tinymce-angular/bower_components/angular-ui-tinymce/.bower.json" />
+    <entry file="file://$PROJECT_DIR$/tinymce-angular/bower_components/angular-ui-tinymce/bower.json" />
+    <entry file="file://$PROJECT_DIR$/tinymce-angular/bower.json" />
+    <entry file="file://$PROJECT_DIR$/tinymce-angular/bower_components/tinymce/bower.json" />
+    <entry file="file://$PROJECT_DIR$/tinymce-angular/bower_components/tinymce/.bower.json" />
+    <entry file="file://$PROJECT_DIR$/tinymce-angular/bower_components/angular/angular.js" />
     <entry file="file://$PROJECT_DIR$/lib/angular-ui-tinymce/src/tinymce.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1644,25 +1483,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="510">
+          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/AppFilters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/MailServiceMock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+            <element signature="e#156#2542#0" expanded="false" />
+            <element signature="e#214#2528#0" expanded="false" />
+            <element signature="e#232#834#0" expanded="false" />
+            <element signature="e#852#1463#0" expanded="false" />
+            <element signature="e#1481#1874#0" expanded="false" />
+            <element signature="e#1892#2514#0" expanded="false" />
+            <element signature="e#2556#4469#0" expanded="false" />
+            <element signature="e#2618#4455#0" expanded="false" />
+            <element signature="e#2636#3216#0" expanded="false" />
+            <element signature="e#3234#3844#0" expanded="false" />
+            <element signature="e#3862#4441#0" expanded="false" />
+            <element signature="e#4483#5809#0" expanded="false" />
+            <element signature="e#4550#5795#0" expanded="false" />
+            <element signature="e#4568#5150#0" expanded="false" />
+            <element signature="e#5168#5781#0" expanded="false" />
+            <element signature="e#5823#7148#0" expanded="false" />
+            <element signature="e#5879#7134#0" expanded="false" />
+            <element signature="e#5897#6476#0" expanded="false" />
+            <element signature="e#6494#7120#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/AppDirectives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <marker date="1486604177000" expanded="true" signature="184:632" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="221:556" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:920" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:967" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:1053" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:1144" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:1172" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:1226" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:1317" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:1413" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:1441" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:1483" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:1620" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:1648" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:1651" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:1702" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:1801" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:1856" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:1989" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:2017" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:2042" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="859:2063" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="921:967" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="968:1053" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="1227:1317" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="1484:1620" ph="..." />
+            <marker date="1486604177000" expanded="true" signature="1703:1801" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="100" column="42" lean-forward="false" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="127" column="32" lean-forward="true" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="185" column="18" lean-forward="false" selection-start-line="185" selection-start-column="18" selection-end-line="185" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="240">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
