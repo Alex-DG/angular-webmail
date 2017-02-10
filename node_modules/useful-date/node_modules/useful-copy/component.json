@@ -1,0 +1,15 @@
+{
+	"dependencies" : {},
+	"description"  : "useful deep/shallow copy/update",
+	"development"  : {
+		"chaijs/chai"       : "latest",
+		"visionmedia/mocha" : "latest"
+	},
+	"keywords"     : ["copy", "merge", "update"],
+	"license"      : "MIT",
+	"main"         : "index.js",
+	"name"         : "useful-copy",
+	"repo"         : "muigui/useful-copy",
+	"scripts"      : ["index.js"],
+	"version"      : "0.0.1"
+}
