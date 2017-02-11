@@ -1,3 +1,6 @@
+/**
+ * Created by Alex on 08/02/2017.
+ */
 angular.module("AppFilters", [])
     .filter("highlightSearch", function () {
         return function (input, search) {

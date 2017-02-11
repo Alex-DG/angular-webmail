@@ -1,3 +1,6 @@
+/**
+ * Created by Alex on 10/02/2017.
+ */
 require('useful-date');
 require('useful-date/locale/en-US.js');
 
@@ -66,8 +69,10 @@ exports.getFiles = function(req, res) {
 };
 
 exports.getFileById = function(req, res) {
-	var file = emailsByFile[req.params.fileId]; // List of email(s) in a file
-	res.send(file);
+	var fileId = req.params.fileId;
+	var emails = emailsByFile[fileId]; // List of email(s) in a file
+
+    res.send({ value: fileId, emails: emails});
 }
 
 exports.getMail = function(req, res) {
@@ -79,6 +84,7 @@ exports.getMail = function(req, res) {
             email = itemMail;
         }
     }
+
     res.send(email);
 }
 
@@ -86,16 +92,18 @@ exports.sendEmail = function(req, res) {
 	var file = emailsByFile["SENT_EMAIL"];
 	var email = req.body;
 
+    email.id = nextEmailId;
+
 	// Create email
-	email.id = nextEmailId;
-	email.from = "Alex";
-	email.to = "William Wallace";
-	email.subject = "FREEEDDDOOOMMMMM!!!";
-	email.date = randDateInLastMonth();
-	email.content = "whisky ?!!!!";
+	// email.from = "Alex";
+	// email.to = "William Wallace";
+	// email.subject = "FREEEDDDOOOMMMMM!!!";
+	// email.date = randDateInLastMonth();
+	// email.content = "whisky ?!!!!";
 
     file.push(email);
 
 	nextEmailId++;
+
 	res.send({ succes: true, email: req.body });
 }

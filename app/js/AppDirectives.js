@@ -1,3 +1,6 @@
+/**
+ * Created by Alex on 08/02/2017.
+ */
 angular.module("AppDirectives", [])
     .directive("contentEmail", function () {
         return {

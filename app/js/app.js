@@ -6,12 +6,38 @@
 //     $locationProvider.hashPrefix('');
 // }]);
 
-angular.module("Webmail", ["ngSanitize", "ui.tinymce", "MailServiceMock", "AppFilters", "AppDirectives"])
+angular.module("Webmail", ["ngSanitize", "ui.tinymce", "MailServiceRest", "AppFilters", "AppDirectives"])
     .config(['$locationProvider', function ($locationProvider) {
         $locationProvider.hashPrefix('');
-    }])
-    .controller("WebmailCtrl", function ($scope, $location, $filter, mailService) {
+    }], function ($httpProvider) {
+        $httpProvider.interceptors.push(function (q, $rootScope) {
+            var countRequests = 0;
+            return {
+                'request': function(config) {
+                    $rootScope.loadingInProgress = true;
+                    countRequests++;
+                    return config;
+                },
+                // 'requestError': function(rejection) {
+                // },
+                'response': function(response) {
+                    if (--countRequests == 0) {
+                        $rootScope.loadingInProgress = false;
+                    }
+                    return response;
+                },
+                'responseError': function(rejection) {
+                    if (--countRequests == 0) {
+                        $rootScope.loadingInProgress = false;
+                    }
+                    return $q.reject(rejection);
+                }
+            };
+        })
+    })
+    .controller("WebmailCtrl", function ($rootScope, $scope, $location, $filter, mailService) {
 
+        $rootScope.loadingInProgress = false;
 
         // SORT --------------------------------------------------------------------------------------------------------
 
@@ -52,7 +78,7 @@ angular.module("Webmail", ["ngSanitize", "ui.tinymce", "MailServiceMock", "AppFi
         $scope.sendEmail = function (newEmail) {
 
             mailService.sendEmail(newEmail);
-            $location.path("/");
+            //$location.path("/");
         }
 
 
@@ -74,6 +100,7 @@ angular.module("Webmail", ["ngSanitize", "ui.tinymce", "MailServiceMock", "AppFi
         $scope.selectEmail = function (valFile, idEmail) {
             $scope.currentView = 'viewContentEmail';
             $scope.emailSelected = mailService.getMail(valFile, idEmail);
+            var test = "";
         };
 
         $scope.$watch(function () {
