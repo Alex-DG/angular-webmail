@@ -1,7 +1,5 @@
 # angularjs-webmail
 
-[WORK IN PROGRESS] 
-
 - AngularJS and Web server/API RESTful with Node.js project through a Webmail app
 
 # Node server:
